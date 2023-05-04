@@ -4,23 +4,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const Nav = () => {
   return (
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12 header-section">
-      <div class="header-text">
-        <div class="top-text">
-          <h3>Welcome To</h3>
-        </div>
-        <div class="middle-text">
-          <h1>Middle Text</h1>
-        </div>
-        <div class="bottom-text">
-          <h2>Bottom Text</h2>
-        </div>
+    <div className="header-section bg-image">
+     <div className="container">
+        <p className="header-text top-text">Welcome to</p>
+        <h1 className="header-text middle-text">The Hotel</h1>
+        <h2 className="header-text bottom-text">Resort & Spa Hotel </h2>
       </div>
     </div>
-  </div>
-</div>
   );
 };
 
