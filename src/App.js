@@ -1,12 +1,6 @@
 import './App.css';
-import About from './components/About';
-import Accommodations from './components/Accommodations';
-import Contact from './components/Contact';
-import Gallery from './components/Gallery';
-import Nav from './components/Nav';
-import Promos from './components/Promos';
-import Reviews from './components/Reviews';
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function App() {
   
