@@ -36,3 +36,21 @@
     font-size: 42px;
     font-family: My custom font;
 }
+
+.about-section{
+    background-color: #F4F1ED;
+    border: 50px;
+}
+
+.about-header{
+    font-size: 50px;
+    font-family: My custom font;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline;
+}
+
+.about-p{
+    font-size: 14px;
+    font-family: My custom font2;
+}

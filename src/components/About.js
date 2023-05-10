@@ -3,11 +3,21 @@ import React from "react";
 const About = () =>{
 
     return(
-        <div>
-            <h1>
-                This is the about page.
-            </h1>
+        <div class="about-section"> 
+            <div class="container">
+            <h2 class="about-header">
+                Welcome to your luxurious home away from home 
+            </h2>
+            </div>
+            <div>
+                <img src="../images/pool2"></img>
+            </div>
+            <section>
+                <p>testtttttttttttt</p>
+            </section>
         </div>
+
+        
 
     );
 
