@@ -1,4 +1,5 @@
 import React from "react";
+import pool from '../images/pool2.webp'
 
 const About = () =>{
 
@@ -11,10 +12,10 @@ const About = () =>{
             </h2>
             </div>
             <div>
-                <img src="../images/pool2"></img>
+              <img src={pool} alt ={"pool"}/>
             </div>
             <section>
-                <p>testtttttttttttt</p>
+                <p>Write a paragraph that talks about your brand or property here. Convince your prospective clients to choose you and your offerings by highlighting the qualities that set you apart from the competition. Your audience is already on your website, so push a little bit harder to seal the deal!</p>
             </section>
         </div>
         </section>

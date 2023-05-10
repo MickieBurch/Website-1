@@ -8,9 +8,6 @@
     src: url(./coco-gothic.bold-italic.ttf);
 }
 
-body{
-    background-color:blanchedalmond;
-}
 .header-section{
     background-image: url(./images/Luxury-Pool.jpg);
     background-size: cover;
@@ -42,7 +39,7 @@ body{
 }
 
 .about-section{
-
+    background-color: #F4F1ED;
     border: 50px;
 }
 
@@ -51,7 +48,7 @@ body{
     font-family: My custom font;
     display: flex;
     flex-wrap: wrap;
-    display: inline;
+    
 }
 
 .about-p{

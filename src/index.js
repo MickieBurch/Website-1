@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
 import App from './App';
 import About from './components/About';
 import Accommodations from './components/Accommodations';
@@ -21,10 +19,10 @@ root.render(
     <App />
     <About />
     <Accommodations />
-    <Contact />
     <Gallery />
     <Promos />
     <Reviews />
+    <Contact />
   </React.StrictMode>
 );
 
