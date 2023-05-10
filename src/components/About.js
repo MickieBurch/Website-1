@@ -3,6 +3,7 @@ import React from "react";
 const About = () =>{
 
     return(
+        <section>
         <div class="about-section"> 
             <div class="container">
             <h2 class="about-header">
@@ -16,7 +17,7 @@ const About = () =>{
                 <p>testtttttttttttt</p>
             </section>
         </div>
-
+        </section>
         
 
     );

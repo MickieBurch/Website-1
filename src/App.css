@@ -7,6 +7,10 @@
     font-family: My custom font2;
     src: url(./coco-gothic.bold-italic.ttf);
 }
+
+body{
+    background-color:blanchedalmond;
+}
 .header-section{
     background-image: url(./images/Luxury-Pool.jpg);
     background-size: cover;
@@ -38,7 +42,7 @@
 }
 
 .about-section{
-    background-color: #F4F1ED;
+
     border: 50px;
 }
 
