@@ -40,6 +40,7 @@
   .about-section {
     display: flex;
     justify-content: flex-end;
+    background-color: #F4F1ED;
   }
   
   .about-container {
