@@ -55,3 +55,8 @@
     font-size: 14px;
     font-family: My custom font2;
 }
+
+.about-image{
+    height: 100%;
+    width: 50%;
+}
