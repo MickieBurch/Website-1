@@ -5,7 +5,7 @@ const About = () =>{
 
     return(
 <section>
-  <div class="about-section"> 
+  <div class="main-container"> 
     <div class="about-container">
       <div class="left-column">
         <img class="about-image" src={pool} alt="Pool Image"></img>

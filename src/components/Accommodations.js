@@ -7,7 +7,7 @@ const Accommodations = () =>{
 
     return(
         <section>
-        <div class="accommodations-section"> 
+        <div class="main-container"> 
             <div class="container">
             <h2 class="accommodations-header">
             Accommodations
@@ -36,7 +36,7 @@ const Accommodations = () =>{
 
             <section class="Hotel3-col">
             <img class="Hotel-img" src={hotel3}></img>
-                <div class="Hotel-card">
+            <div class="Hotel-card">
                 <p>2 adults | 1 child below 7</p>
                 <p>The Wellhall Family Suite</p>
                 <p>from $399 a night</p>
