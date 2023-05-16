@@ -38,31 +38,28 @@
   }
   
   .about-section {
-    display: flex;
-    justify-content: flex-end;
-    background-color: #F4F1ED;
-  }
-  
-  .about-container {
-    display: flex;
-    justify-content: flex-end;
+   background-color: #F4F1ED;
+    
   }
   
   .left-column {
     display: flex;
     align-items: center;
-    margin-right: auto;
+    justify-content: space-evenly;
+    
   }
   
   .about-header{
     font-family: My custom font;
+    width: 50vh;
     }
 
     .about-p{
     font-family: My custom font2;
+    width: 50vh;
     }
   .about-image {
-    max-width: 75vh;
+    max-width: 50vh;
     margin: 10vh 2vh 5vh 25vh  ;
 
   }
@@ -70,3 +67,37 @@
   .text-content {
     margin-right: 10px;
   }
+
+
+  .accommodations-section{
+   background-color: #F4F1ED; 
+  }
+  .accommodations-header{
+    text-align: center;
+    font-family: My custom font;
+    font-size: 50px;
+    margin-bottom: 5vh;
+  }
+
+  .package-container{
+    display: flex;
+   justify-content: center;
+   
+    
+  }
+
+  .Hotel-img{
+    width: 35vh;
+    height: 35vh;
+    margin: 0 5px;
+  }
+
+  .Hotel-card {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin: 5px;
+    padding: 10px;
+  }
+
+
+
