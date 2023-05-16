@@ -3,7 +3,7 @@ import React from "react";
 const Promos = () =>{
 
     return(
-        <section>
+        <section className="main-container">
             <div>
                 <div>
                     <h1>Promos and Offers</h1>

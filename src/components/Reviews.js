@@ -3,7 +3,7 @@ import React from "react";
 const Reviews = () =>{
 
     return(
-        <section>
+        <section className="main-container">
             <div>
                 <div>
                     <h1>
