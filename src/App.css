@@ -128,17 +128,28 @@
 
 .gallery-container{
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-}
+  margin-top: 0vh;
+  padding: 10vh 47vh;
+  }
 
 .gallery-header{
   font-family: my custom font2;
   color: #623E2A;
+  width: 40vh;
+  height: 35vh;
+
   
+}
+
+.gallery-img-header{
+  display: flex;
+  width: 50vh;
+  height: 50vh;
+  padding: 0 15px;
 }
 
 .img-container{
   display: flex;
-
+  justify-content: space-evenly;
 }

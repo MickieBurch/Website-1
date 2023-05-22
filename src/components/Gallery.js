@@ -1,4 +1,5 @@
 import React from "react";
+import Pooltest from "../images/pool2.webp"
 
 const Gallery = () =>{
 
@@ -11,8 +12,12 @@ const Gallery = () =>{
                     </h1>
                     <p>Showcase the best your property has to offer by highlighting one of your accommodations. Add a flattering photo, then describe the room's best feature.</p>
                     </div>    
+                    <div className="gallery-img-header">
+                    <img src={Pooltest}></img>
+                    </div>
                     
-                <div className="img-container">
+               </div>
+               <div className="img-container">
                     <div>
                     <p>IMG HERE</p>
                     <caption>An intriguing caption that describes the room goes here. Use a flattering photo, then describe away!</caption>
@@ -24,7 +29,6 @@ const Gallery = () =>{
                 <div>
                     <p>IMG HERE</p>
                     <caption>An intriguing caption that describes the room goes here. Use a flattering photo, then describe away!</caption>
-                </div>
                 </div>
             </div>
         </section>
