@@ -157,6 +157,9 @@
 .caption{
   margin-top: 2vh;
   border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .img-container{
