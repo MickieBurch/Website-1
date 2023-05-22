@@ -10,10 +10,11 @@ const Gallery = () =>{
                     <h1>
                     The Family Suite
                     </h1>
-                    <p>Showcase the best your property has to offer by highlighting one of your accommodations. Add a flattering photo, then describe the room's best feature.</p>
+                    <p className="gallery-p">Showcase the best your property has to offer by highlighting one of your accommodations. Add a flattering photo, then describe the room's best feature.</p>
                     </div>    
                     <div className="gallery-img-header">
                     <img src={Pooltest}></img>
+                    <caption className="caption">Hotel pool </caption>
                     </div>
                     
                </div>

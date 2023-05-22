@@ -134,19 +134,29 @@
   }
 
 .gallery-header{
-  font-family: my custom font2;
+  font-family: my custom font;
   color: #623E2A;
-  width: 40vh;
-  height: 35vh;
+  width: 50vh;
+  height: 60vh;
 
   
 }
-
+.gallery-p{
+  padding-top: 35vh;
+  
+}
 .gallery-img-header{
   display: flex;
-  width: 50vh;
-  height: 50vh;
+  flex-direction: column;
+  width: 60vh;
+  height: 60vh;
   padding: 0 15px;
+  
+}
+
+.caption{
+  margin-top: 2vh;
+  border: 1px solid black;
 }
 
 .img-container{
