@@ -10,11 +10,11 @@ const Promos = () =>{
                 <div className="accommodations-header">
                     <h1>Promos and Offers</h1>
                 </div>
-                <div className="package-container">
+                <div className="promo-container">
                     
                 <section class="Hotel1-col">
                 <img class="Hotel-img" src={earlybird}></img>
-                <div class="Hotel-card">
+                <div class="promo-card">
                 <h3>Early Bird Discount</h3>
                 <p>List your offers, promos, or special membership privileges and perks here to entice people to book your property.</p>
                 
@@ -23,7 +23,7 @@ const Promos = () =>{
 
             <section class="Hotel1-col">
                 <img class="Hotel-img" src={WellHall}></img>
-                <div class="Hotel-card">
+                <div class="promo-card">
                 <h3>Wellhall Members Club</h3>
                 <p>List your offers, promos, or special membership privileges and perks here to entice people to book your property.</p>
                 
@@ -32,7 +32,7 @@ const Promos = () =>{
              
             <section class="Hotel1-col">
                 <img class="Hotel-img" src={Nightsfree}></img>
-                <div class="Hotel-card">
+                <div class="promo-card">
                 <h3>Book 3 Nights, Get 1 Night Free</h3>
                 <p>List your offers, promos, or special membership privileges and perks here to entice people to book your property.</p>   
                 </div>

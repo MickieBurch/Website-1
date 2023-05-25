@@ -166,3 +166,19 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.promo-container{
+  display: flex;
+  justify-content: center;
+}
+
+.promo-card{
+  border: 1px solid black;
+  margin-top: 10px;
+  margin: 5px;
+  padding: 10px;
+  width: 35vh;
+  height: 25vh;
+  font-family: My custom font;
+  color: #623E2A;
+}
