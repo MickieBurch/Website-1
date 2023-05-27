@@ -18,14 +18,14 @@ const Gallery = () =>{
                     </div>
                     
                </div>
-               <div className="promo-container">
+               <div className="gallery-body-container">
                     <div>
-                    <img className="gallery-img-header" src={Pooltest}></img>
-                    <caption className="caption">An intriguing caption that describes the room goes here. Use a flattering photo, then describe away!</caption>
+                    <img className="gallery-img1" src={Pooltest}></img>
+                    <caption className="gallery-caption">An intriguing caption that describes the room goes here. Use a flattering photo, then describe away!</caption>
                     </div>
                 <div>
-                <img className="gallery-img-header" src={Pooltest}></img>
-                    <caption className="caption">An intriguing caption that describes the room goes here. Use a flattering photo, then describe away!</caption>
+                <img className="gallery-img2" src={Pooltest}></img>
+                    <caption className="img2-caption">An intriguing caption that describes the room goes here. Use a flattering photo, then describe away!</caption>
                 </div>
                 
                 

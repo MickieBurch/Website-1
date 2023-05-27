@@ -10,6 +10,8 @@
   
   .main-container{
     background-color: #F4F1ED;
+    width: auto;
+    
   }
 
   .contact-container{
@@ -20,7 +22,7 @@
     background-image: url('./images/Luxury-Pool.jpg');
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,17 +134,25 @@
   margin-top: 0vh;
   padding: 10vh 47vh;
   }
+  
+  .gallery-body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+  }
 
 .gallery-header{
   font-family: my custom font;
   color: #623E2A;
-  width: 50vh;
+  width: 60vh;
   height: 60vh;
 
   
 }
 .gallery-p{
   padding-top: 35vh;
+
   
 }
 .gallery-img-header{
@@ -151,16 +161,58 @@
   width: 60vh;
   height: 60vh;
   padding: 0 15px;
+  margin: 0 5px;
   
 }
 
-.caption{
-  margin-top: 2vh;
+.caption {
+  margin-top: 8%;
+  margin-bottom: 10px;
   border: 1px solid black;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 40px;
+
+}
+
+.gallery-caption{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid black ;
+  width: 50%;
+  height: 50%;
+}
+
+.img2-caption{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 50%;
+
+}
+.gallery-img1 {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 75%;
+  margin: 0 auto /* Add some spacing between the two images */
   
 }
+
+
+.gallery-img2 {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 75%;
+  margin: auto 0; /* Add some spacing between the two images */
+}
+
 
 .img-container{
   display: flex;
@@ -169,7 +221,8 @@
 
 .promo-container{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+
 }
 
 .promo-card{
@@ -181,4 +234,120 @@
   height: 25vh;
   font-family: My custom font;
   color: #623E2A;
+}
+
+.reviews-container{
+  background-image: url(../src/images/Bellagio-Hotel-Casino-Las-Vegas.webp);
+  width: auto;
+  height: 350px;
+}
+
+.reviews-header{
+  color: white;
+  font-family: my custom font;
+  display: flex;
+  justify-content: center;
+}
+
+.review-body{
+  display: flex;
+  justify-content: center;
+
+}
+.review-card{
+  color: white;
+  font-family: my custom font2;
+  font-size: smaller;
+  margin: 30px;
+  padding: 10px;
+  width: 15%;
+}
+
+.contact-header{
+  color: white;
+  display: flex;
+  justify-content: left;
+}
+
+.contact-body{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-card{
+  border: 1px solid white;
+  color: white;
+  
+  font-size: smaller;
+  margin: 30px;
+  padding: 10px;
+  width: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+  .left-column {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+  }
+  
+  .about-header,
+  .about-p {
+    width: auto;
+    text-align: center;
+  }
+  
+  .about-image {
+    margin: 5vh auto;
+  }
+  
+  .gallery-container {
+    padding: 5vh 15vh;
+  }
+  
+  .gallery-header,
+  .gallery-p {
+    width: auto;
+    text-align: center;
+  }
+  
+  .gallery-img-header {
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 5px;
+  }
+  
+  .promo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .promo-card {
+    width: auto;
+    height: auto;
+    margin: 5px;
+  }
+  
+  .reviews-header {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .review-card {
+    width: auto;
+    margin: 10px;
+  }
+  
+  .contact-header {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contact-card {
+    width: auto;
+    margin: 10px;
+  }
 }

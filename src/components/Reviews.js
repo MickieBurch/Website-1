@@ -1,18 +1,18 @@
 import React from "react";
-
 const Reviews = () =>{
 
     return(
-        <section className="main-container">
+        <section className="reviews-container">
+            
             <div>
-                <div>
+                <div className="reviews-header">
                     <h1>
                     In the Press
                     </h1>
                 </div>
 
-                <div>
-                    <section>
+                <div className="review-body">
+                    <section className="review-card">
                         <p>
                         Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.
                         -
@@ -20,7 +20,7 @@ const Reviews = () =>{
                         </p>
                     </section>
 
-                    <card>
+                    <card className="review-card">
                         <p>
                         Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.
                         -
@@ -28,7 +28,7 @@ const Reviews = () =>{
                         </p>
                     </card>
 
-                    <card>
+                    <card className="review-card">
                     Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.
                     -
                     Fairhill Journal
